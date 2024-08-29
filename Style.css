@@ -1,0 +1,692 @@
+:root {
+	--web-view-ids: Mobile,iPad_Air__1,Web_1920__1;
+	--web-view-name: Mobile;
+	--web-view-id: Mobile;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-show-scale-controls: false;
+	--web-scale-on-double-click: false;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-actual-size-on-double-click: false;
+	--web-navigate-on-keypress: false;
+	--web-refresh-for-changes: false;
+	--web-add-image-compare: false;
+	--web-show-by-media-query: true;
+	--web-application: false;
+	--web-show-navigation-controls: false;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: false;
+}
+#Mobile,
+#iPad_Air__1,
+#Web_1920__1 {
+	display: none;
+}
+@media (min-width: 0px) and (max-width: 819px) {
+	.mediaViewInfo {
+		--web-view-name: Mobile;
+		--web-view-id: Mobile;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Mobile {
+		position: absolute;
+		display: block;
+		width: 390px;
+		height: 844px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Mobile;
+		--web-view-id: Mobile;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	#Rectangle_4 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_4 {
+		position: absolute;
+		overflow: visible;
+		width: 390px;
+		height: 844px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_2 {
+		position: absolute;
+		width: 304px;
+		height: 20px;
+		left: 43px;
+		top: 199px;
+		overflow: visible;
+	}
+	#Home {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 44px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+	}
+	#Our_Services {
+		left: 108px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 89px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+	}
+	#Offers {
+		left: 260px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 45px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+	}
+	#UHDSS-LOGO {
+		position: absolute;
+		width: 98px;
+		height: 143px;
+		left: 146px;
+		top: 40px;
+		overflow: visible;
+	}
+	#Canada-3 {
+		position: absolute;
+		width: 307px;
+		height: 307px;
+		left: 42px;
+		top: 324px;
+		overflow: visible;
+	}
+	#Group_3 {
+		position: absolute;
+		width: 184px;
+		height: 31px;
+		left: 103px;
+		top: 712px;
+		overflow: visible;
+	}
+	#Whatsapp {
+		position: absolute;
+		width: 31px;
+		height: 31px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Globe {
+		position: absolute;
+		width: 31px;
+		height: 31px;
+		left: 51px;
+		top: 0px;
+		overflow: visible;
+	}
+	#IG {
+		position: absolute;
+		width: 32px;
+		height: 31px;
+		left: 101px;
+		top: 0px;
+		overflow: visible;
+	}
+	#FB {
+		position: absolute;
+		width: 31px;
+		height: 31px;
+		left: 153px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_4 {
+		position: absolute;
+		width: 80px;
+		height: 46px;
+		left: 155px;
+		top: 758px;
+		overflow: visible;
+	}
+	#ID250_788_941_631 {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(112,112,112,1);
+	}
+	#ID250_786_228_029 {
+		left: 0px;
+		top: 16px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(112,112,112,1);
+	}
+	#infouhdsscom {
+		left: 3px;
+		top: 32px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(112,112,112,1);
+	}
+	#Apply_now {
+		position: absolute;
+		width: 134px;
+		height: 55px;
+		left: 128px;
+		top: 642px;
+		overflow: visible;
+	}
+	#Apply_now_z {
+		position: absolute;
+		width: 134px;
+		height: 55px;
+		left: 128px;
+		top: 247px;
+		overflow: visible;
+	}
+}
+@media (min-width: 820px) and (max-width: 1919px) {
+	.mediaViewInfo {
+		--web-view-name: iPad Air – 1;
+		--web-view-id: iPad_Air__1;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#iPad_Air__1 {
+		position: absolute;
+		display: block;
+		width: 820px;
+		height: 1180px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: iPad Air – 1;
+		--web-view-id: iPad_Air__1;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	#Rectangle_4_ {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_4_ {
+		position: absolute;
+		overflow: visible;
+		width: 820px;
+		height: 1188px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_2_ {
+		position: absolute;
+		width: 467px;
+		height: 31px;
+		left: 279px;
+		top: 174px;
+		overflow: visible;
+	}
+	#Home_ {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 66px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+	}
+	#Our_Services_ {
+		left: 166px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 136px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+	}
+	#Offers_ {
+		left: 400px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 68px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+	}
+	#UHDSS-LOGO_ {
+		position: absolute;
+		width: 98px;
+		height: 143px;
+		left: 101px;
+		top: 118px;
+		overflow: visible;
+	}
+	#Canada-3_ {
+		position: absolute;
+		width: 554px;
+		height: 554px;
+		left: 151px;
+		top: 441px;
+		overflow: visible;
+	}
+	#Group_5 {
+		position: absolute;
+		width: 184px;
+		height: 92px;
+		left: 318px;
+		top: 1025px;
+		overflow: visible;
+	}
+	#Group_3_ba {
+		position: absolute;
+		width: 184px;
+		height: 31px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Whatsapp_bb {
+		position: absolute;
+		width: 31px;
+		height: 31px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Globe_bc {
+		position: absolute;
+		width: 31px;
+		height: 31px;
+		left: 51px;
+		top: 0px;
+		overflow: visible;
+	}
+	#IG_bd {
+		position: absolute;
+		width: 32px;
+		height: 31px;
+		left: 101px;
+		top: 0px;
+		overflow: visible;
+	}
+	#FB_be {
+		position: absolute;
+		width: 31px;
+		height: 31px;
+		left: 153px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_4_bf {
+		position: absolute;
+		width: 80px;
+		height: 46px;
+		left: 52px;
+		top: 46px;
+		overflow: visible;
+	}
+	#ID250_788_941_631_bg {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(112,112,112,1);
+	}
+	#ID250_786_228_029_bh {
+		left: 0px;
+		top: 16px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(112,112,112,1);
+	}
+	#infouhdsscom_bi {
+		left: 3px;
+		top: 32px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(112,112,112,1);
+	}
+	#Apply_now_bj {
+		position: absolute;
+		width: 287px;
+		height: 117px;
+		left: 267px;
+		top: 294px;
+		overflow: visible;
+	}
+}
+@media (min-width: 1920px) {
+	.mediaViewInfo {
+		--web-view-name: Web 1920 – 1;
+		--web-view-id: Web_1920__1;
+		--web-scale-on-resize: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Web_1920__1 {
+		position: absolute;
+		display: block;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Web 1920 – 1;
+		--web-view-id: Web_1920__1;
+		--web-scale-on-resize: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	#Rectangle_4_bm {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_4_bm {
+		position: absolute;
+		overflow: visible;
+		width: 1155px;
+		height: 1080px;
+		left: 383px;
+		top: 0px;
+	}
+	#Group_2_bn {
+		position: absolute;
+		width: 601px;
+		height: 38px;
+		left: 754px;
+		top: 122px;
+		overflow: visible;
+	}
+	#Home_bo {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 83px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 29px;
+		color: rgba(0,0,0,1);
+	}
+	#Our_Services_bp {
+		left: 215px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 171px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 29px;
+		color: rgba(0,0,0,1);
+	}
+	#Offers_bq {
+		left: 517px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 29px;
+		color: rgba(0,0,0,1);
+	}
+	#UHDSS-LOGO_br {
+		position: absolute;
+		width: 131px;
+		height: 192px;
+		left: 538px;
+		top: 45px;
+		overflow: visible;
+	}
+	#Canada-3_bs {
+		position: absolute;
+		width: 466px;
+		height: 466px;
+		left: 727px;
+		top: 247px;
+		overflow: visible;
+	}
+	#Group_5_bt {
+		position: absolute;
+		width: 184px;
+		height: 92px;
+		left: 868px;
+		top: 966px;
+		overflow: visible;
+	}
+	#Group_3_bu {
+		position: absolute;
+		width: 184px;
+		height: 31px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Whatsapp_bv {
+		position: absolute;
+		width: 31px;
+		height: 31px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Globe_bw {
+		position: absolute;
+		width: 31px;
+		height: 31px;
+		left: 51px;
+		top: 0px;
+		overflow: visible;
+	}
+	#IG_bx {
+		position: absolute;
+		width: 32px;
+		height: 31px;
+		left: 101px;
+		top: 0px;
+		overflow: visible;
+	}
+	#FB_by {
+		position: absolute;
+		width: 31px;
+		height: 31px;
+		left: 153px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_4_bz {
+		position: absolute;
+		width: 80px;
+		height: 46px;
+		left: 52px;
+		top: 46px;
+		overflow: visible;
+	}
+	#ID250_788_941_631_b {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(112,112,112,1);
+	}
+	#ID250_786_228_029_b {
+		left: 0px;
+		top: 16px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(112,112,112,1);
+	}
+	#infouhdsscom_b {
+		left: 3px;
+		top: 32px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(112,112,112,1);
+	}
+	#Apply_now_b {
+		position: absolute;
+		width: 287px;
+		height: 117px;
+		left: 817px;
+		top: 790px;
+		overflow: visible;
+	}
+}
